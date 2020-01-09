@@ -1,0 +1,11 @@
+.DS_Store
+
+main.c
+main.cpp
+CMakeLists.txt
+
+drafts
+
+cmake-build-debug
+
+.idea
