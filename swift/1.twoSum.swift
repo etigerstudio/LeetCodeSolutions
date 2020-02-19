@@ -1,3 +1,4 @@
+// Brute iterating
 func twoSum1(_ nums: [Int], _ target: Int) -> [Int] {
     for (i, n) in nums.enumerated() {
         for (j, m) in nums.enumerated() {
@@ -9,6 +10,7 @@ func twoSum1(_ nums: [Int], _ target: Int) -> [Int] {
     return []
 }
 
+// Using dictionary
 func twoSum2(_ nums: [Int], _ target: Int) -> [Int] {
     var pos = [Int: Int]()
     
@@ -20,5 +22,5 @@ func twoSum2(_ nums: [Int], _ target: Int) -> [Int] {
         pos[n] = i
     }
     
-    return [0, 0]
+    return []
 }
